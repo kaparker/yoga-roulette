@@ -1,7 +1,9 @@
-import flask
 import random
 import string
+
+import flask
 import googleapiclient.discovery
+
 import config
 
 DEVELOPER_KEY = config.CONFIG['secret_key']
